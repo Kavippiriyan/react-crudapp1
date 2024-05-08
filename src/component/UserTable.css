@@ -1,0 +1,66 @@
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* AddUserForm and UserTable styles */
+.add-user,
+.user-table {
+    width: 48%; /* Adjusted width for better alignment */
+}
+
+/* Form styles */
+.add-user form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-user label {
+    margin-bottom: 10px; /* Increased margin for better spacing */
+}
+
+.add-user input[type='text'] {
+    padding: 10px; /* Increased padding for better input field appearance */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+.add-user button
+{
+    width: 53%;
+}
+
+/* Table styles */
+.user-table table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better header appearance */
+    text-align: left;
+}
+
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better cell appearance */
+}
+
+.user-table button {
+    padding: 8px 16px; /* Increased padding for better button appearance */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.user-table button:hover {
+    background-color: #0056b3;
+}
